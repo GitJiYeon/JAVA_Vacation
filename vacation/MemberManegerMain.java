@@ -129,7 +129,7 @@ class MemberManegement {
 	void findMember(String name) {
 		for (int i = 0; i < members.size(); i++) {
 			if (members.get(i).getName().equals(name)) {
-				System.out.println("회원 정보");
+				System.out.println("회원 정보"); 
 				System.out.println("이름: " + members.get(i).getName());
 				System.out.println("성별: " + members.get(i).getGender());
 				System.out.println("나이: " + members.get(i).getAge());
